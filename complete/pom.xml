@@ -68,7 +68,7 @@
 			   <version>1.1.0</version>
 			   <configuration>
 			      <resourceGroup>maven-projects</resourceGroup>
-			      <appName>${project.artifactId}-${maven.build.timestamp}</appName>
+			      <appName>springbootapp</appName>
 			      <region>westus</region>
 			      <javaVersion>1.8</javaVersion>
 			      <deploymentType>war</deploymentType>
