@@ -15,10 +15,10 @@ public class Application extends SpringBootServletInitializer{
         SpringApplication.run(Application.class, args);
     }
     
-    @Override
+    /*@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
         return application.sources(Application.class);
-    }
+    }*/
 
     @Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
